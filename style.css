@@ -16,7 +16,6 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
 #logo {
     position: fixed;
     margin: 16px 36px;
@@ -33,9 +32,9 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    background-color: rgb(7, 7, 82);
     z-index: 2;
     top: 0;
+    background-color: black;
 }
 
 nav ul {
@@ -60,9 +59,9 @@ nav ul li a {
     letter-spacing: 1px;
     transition: color 0.3s;
 }
-
 nav ul li:hover a {
     color: #ffd208;
+    background-color: white;
 }
 
 h1, h2 {
@@ -73,8 +72,12 @@ h1, h2 {
 }
 p {
     text-align: justify;
+    color: #000;
 }
-
+figcaption{
+    color: #000;
+    text-shadow: -1px 0 red,;
+}
 main {
     position: relative;
     background-attachment: fixed;
@@ -85,7 +88,7 @@ main {
 
 #companyhistory, #companylogo, #owner, #freeshipping, #discount, #category, #contact1
 {
-    background-color: blue;
+    background-color: pink;
     border-radius: 15px;
     padding: 20px;
     width: 70%;
@@ -136,8 +139,8 @@ td {
     nav {
         position: absolute;
         width: 100%;
-        background-color: rgb(7, 7, 82);
-        z-index: 2;
+        background-color: pink;
+        z-index: 5;
         top: 0;
     }
 
